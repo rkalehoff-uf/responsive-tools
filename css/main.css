@@ -1,0 +1,27 @@
+body {
+    background: #e3e3e3;
+}
+
+.container {
+    background: white;
+    margin: 2em auto 0;
+    max-width: 1000px;
+    padding: 1em;
+    width: 80%;
+}
+
+.container::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.content {
+    background: red;
+    padding: 1em;
+}
+
+.sidebar {
+    background: blue;
+    padding: 1em;
+}
