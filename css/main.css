@@ -19,9 +19,14 @@ body {
 .content {
     background: red;
     padding: 1em;
+    float: left;
+    margin-right: 1em;
+    width: calc((100% / 3) * 2);
 }
 
 .sidebar {
     background: blue;
     padding: 1em;
+    float: right;
+    width: calc(100% / 3 - 1em);
 }
