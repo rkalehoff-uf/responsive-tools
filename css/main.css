@@ -19,7 +19,7 @@ body {
 .promo {
     background: blue;
     float: left;
-    width: 33%;
+    width: calc(100% / 3);
 }
 
 .promo-2 {
