@@ -1,0 +1,32 @@
+body {
+    background: #e3e3e3;
+}
+
+.container {
+    background: white;
+    margin: 2em auto 0;
+    max-width: 1000px;
+    padding: 1em;
+    width: 80%;
+}
+
+.container::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.promo {
+    background: blue;
+    float: left;
+    width: 33%;
+}
+
+.promo-2 {
+    background: green;
+}
+
+.promo-3 {
+    background: purple;
+    float: right;
+}
