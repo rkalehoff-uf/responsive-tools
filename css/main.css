@@ -15,10 +15,18 @@ article {
     width: 100%;
 }
 
+article + article {
+    margin-top: 1em;
+}
+
 nav {
     margin-bottom: 1em;
 }
 
 nav a {
     padding: 1em;
+}
+
+a + a {
+    border-left: 1px solid black;
 }
